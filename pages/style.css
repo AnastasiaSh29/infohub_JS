@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext);
+
+.page {
+  max-width: 1445px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  color: #070707;
+  position: relative;
+  font-family: Roboto, 'Helvetica Neue', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+/*таймер с осчетом времени(модульный)*/
+
+.promotion {
+  border: 1px solid red;
+  padding: 70px 0 240px 0;
+  position: relative;
+  display: flex;
+}
+.promotion__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+}
+
+.promotion__text {
+  width: 50%;
+}
+.promotion__title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: left;
+}
+.promotion__descr {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.timer {
+  width: 50%;
+}
+.timer__title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: right;
+}
+.timer__container {
+  margin-top: 60px;
+  padding-left: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer__block {
+  width: 102px;
+  height: 120px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.timer__block span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 56px;
+  font-weight: 700;
+}
