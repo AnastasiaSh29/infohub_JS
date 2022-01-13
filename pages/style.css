@@ -43,9 +43,13 @@
   line-height: 24px;
   font-weight: 300;
 }
-
+.promotion__descr span {
+  font-weight: 700;
+  font-size: 26px;
+}
 .timer {
   width: 50%;
+  /* background-image: url('../images/Ramadan.jfif'); */
 }
 .timer__title {
   font-size: 36px;
